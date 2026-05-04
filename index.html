@@ -845,7 +845,8 @@
     .hero { padding: 7rem 2rem 5rem; }
     .problem { padding: 5rem 2rem; }
     .story { grid-template-columns: 1fr; padding: 5rem 2rem; gap: 3rem; }
-    .story-card-stack { height: 280px; }
+    .story-card-stack { height: auto; display: flex; flex-direction: column; gap: 1.5rem; }
+    .story-card { position: relative; width: 100%; top: auto; bottom: auto; left: auto; right: auto; }
     .transformation { padding: 5rem 2rem; }
     .goodbye-hello { grid-template-columns: 1fr; }
     .tiers { padding: 5rem 2rem; }
@@ -872,7 +873,7 @@
     .btn-primary { display: inline-block; max-width: 100%; padding: 1rem 1.5rem; letter-spacing: 0.08em; text-align: center; }
     .problem { padding: 4rem 1.25rem; }
     .story { padding: 4rem 1.25rem; gap: 2rem; }
-    .story-card-stack { height: 220px; }
+    .story-card-stack { gap: 1.25rem; }
     .transformation { padding: 4rem 1.25rem; }
     .goodbye-hello { gap: 0.75rem; }
     .tiers { padding: 4rem 1.25rem; }
@@ -897,7 +898,6 @@
     .btn-primary { font-size: 0.72rem; padding: 0.85rem 1.25rem; }
     .problem { padding: 3rem 1rem; }
     .story { padding: 3rem 1rem; }
-    .story-card-stack { height: 180px; }
     .transformation { padding: 3rem 1rem; }
     .tiers { padding: 3rem 1rem; }
     .testimonials { padding: 3rem 1rem; }
