@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\Sharique\\\\OneDrive\\\\Documents\\\\kingdom-parapara\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(Format-List)"
+    ]
+  }
+}
